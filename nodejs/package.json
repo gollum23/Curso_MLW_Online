@@ -1,0 +1,10 @@
+{
+	"name" : "curso-mejorandola",
+	"version" : "0.1.0",
+	"dependencies" : {
+		"express"     : "3.0.4",
+		"jade"        : "0.27.7",
+		"consolidate" : "0.5.0",
+		"socket.io"   : "0.9.11"
+	}
+}
