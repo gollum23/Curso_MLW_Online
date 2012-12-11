@@ -60,7 +60,7 @@ function cambiarTecho (datos) {
 function goHome (datos) {
 	// Se elimina el evento click
 	$("#personalizar").off("click",goHome);
-	// Se desplaza el slide hacia la izquierda
+	// Se desplaza el slide hacia la derecha
 	$('#slide').css("left","-3%");
 	// Se cambia el texto del boton
 	$("#personalizar").html("Personalizar");
