@@ -1,0 +1,236 @@
+body {
+	background: #222;
+	color: #EEE;
+	font-family: Arial;
+	font-size: 16px;
+	text-align: center;
+}
+header {
+	background: url("logo.png") no-repeat 95% center,
+		url("fondo.png");
+	background-size: 200px, 100px;
+	margin: 0 0 1em 0;
+	padding: 0.5em 0;
+	width: 100%;
+}
+header h1 {
+	margin: 0;
+	text-shadow: rgba(255,255,255,0.5) 5px 5px 10px;
+}
+header h2{
+	font-weight: normal;
+	margin: 0;
+	text-shadow: rgba(0,0,0,0.7) 5px 5px 5px;
+}
+nav {
+	background: rgba(60,60,180,0.8);
+	bottom: 0;
+	color: #EEE;
+	font-size: 1.5em;
+	left: 0;
+	padding: 1em 0;
+	position: fixed;
+	width: 100%;
+}
+nav ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+nav li{
+	display: inline-block;
+}
+nav li a{
+	background: #D23D15;
+	-webkit-border-radius: 0.5em;
+		border-radius: 0.5em;
+	color: white;
+	display: inline-block;
+	margin: 0 1em 0 0;
+	padding: 0.5em 1em;
+	text-decoration: none;
+	-webkit-transition: all 0.5s ease-out;
+	-moz-transition: all 0.5s ease-out;
+	-ms-transition: all 0.5s ease-out;
+	-o-transition: all 0.5s ease-out;
+		transition: all 0.5s ease-out;
+
+}
+nav li a:hover{
+	background: #FFF;
+	color: black;
+	-webkit-transform: scale(1.2) rotate(-5deg);
+	-moz-transform: scale(1.2) rotate(-5deg);
+	-ms-transform: scale(1.2) rotate(-5deg);
+	-o-transform: scale(1.2) rotate(-5deg);
+	transform: scale(1.2) rotate(-5deg);
+}
+#cochecito {
+	background: #FFF;
+	color: #222;
+	text-align: left;
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+	width: 35%;
+}
+#cochecito div {
+	position: relative;
+}
+#cochecito figcaption {
+	margin: 1em;
+}
+#cochecito img {
+	width: 100%;
+}
+#cochecito #llantadel, #cochecito #llantatras, #cochecito #techo{
+	position:absolute;
+}
+#cochecito #llantadel {
+	left: 13.5%;
+	top: 40%;
+	width: 17%;
+}
+#cochecito #llantatras {
+	left: 73.4%;
+	top: 38%;
+	width: 18.5%;
+}
+#cochecito #techo{
+	left: 40%;
+	top: 10%;
+	width: 31%;
+}
+
+#cochecito, #historia {
+	display: inline-block;
+	vertical-align: top;
+}
+#historia{
+	background: rgba(0,0,0,0.6);
+	border-radius: 0.5em;
+	-webkit-box-shadow: rgba(0,0,0,0.5) 5px 5px 10px;
+	box-shadow: rgba(0,0,0,0.5) 5px 5px 10px;
+	margin: 0 2% 7em 0;
+	padding: 1em;
+	text-align: left;
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+	width: 25%;
+}
+#personalizacion {
+	background: rgba(0,0,0,0.8);
+	-webkit-border-radius: 0.5em;
+	border-radius: 0.5em;
+	-webkit-box-shadow: rgba(255,255,255,0.2) 5px 5px 10px inset;
+	box-shadow: rgba(255,255,255,0.2) 5px 5px 10px inset;
+	display: inline-block;
+	margin: 0 0 6em 2%;
+	overflow: hidden;
+	padding: 1em 1em 0;
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+	vertical-align: top;
+	width: 25%;
+}
+#personalizacion article{
+	background: rgba(255,255, 255,0.9);
+	-webkit-border-radius: 0.5em;
+	        border-radius: 0.5em;
+	color: #333;
+	margin: 0 0 1em 0;
+	padding: 0.5em;
+}
+#personalizacion h2 {
+	margin-top: 0;
+}
+#personalizacion #color div{
+	border: 3px solid #ccc;
+	cursor: pointer;
+	display: inline-block;
+	height: 2em;
+	margin: 0.5em 1%;
+	opacity: 0.8;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+	vertical-align: top;
+	width:25%;
+}
+#personalizacion #color div:hover {
+	border: 3px solid black;
+	opacity: 1;
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	transform: scale(1.1);
+}
+#personalizacion #color #Amarillo {
+	background: #eea024;
+}
+#personalizacion #color #Azul {
+	background: #166CEB;
+}
+#personalizacion #color #Blanco {
+	background: #DCDCDC;
+}
+#personalizacion #color #Negro {
+	background: #121212;
+}
+#personalizacion #color #Rojo {
+	background: #9F001C;
+}
+#personalizacion #color #Verde {
+	background: #6CB944;
+}
+#personalizacion #llantas figure, #personalizacion #techo figure {
+	-webkit-box-shadow: rgba(0,0,0,0.2) 0px 0px 1em;
+	box-shadow: rgba(0,0,0,0.2) 0px 0px 1em;
+	cursor: pointer;
+	display: inline-block;
+	margin: 0 2% 1em;
+	padding: 1%;
+	vertical-align: top;
+	width: 40%;
+}
+#personalizacion #llantas figure:hover img {
+	-webkit-transform: rotate(360deg);
+	-moz-transform: rotate(360deg);
+	-ms-transform: rotate(360deg);
+	-o-transform: rotate(360deg);
+	transform: rotate(360deg);
+}
+#personalizacion #llantas figure img,
+#personalizacion #techo figure img {
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+	width: 100%;
+}
+#slide {
+	position: relative;
+	left: -3%;
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+	width: 150%;
+}
+#wrap {
+	overflow: hidden;
+	width: 100%;
+}
